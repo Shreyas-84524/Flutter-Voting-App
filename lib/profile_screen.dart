@@ -118,7 +118,6 @@ class ProfileScreen extends StatelessWidget {
                     //   _notificationsEnabled = value;
                     // });
                   },
-                  activeColor: AppColors.primaryContainer,
                   activeTrackColor: AppColors.primaryContainer.withOpacity(0.3),
                 ),
               ),
@@ -349,27 +348,6 @@ class ProfileScreen extends StatelessWidget {
       height: 1,
       thickness: 1,
       color: Colors.white.withOpacity(0.05),
-    );
-  }
-
-  Widget _buildProfileDetailRow(String title, String val) {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: [
-        Text(
-          title,
-          style: AppTypography.labelMd.copyWith(
-            color: AppColors.onSurfaceVariant,
-          ),
-        ),
-        Text(
-          val,
-          style: AppTypography.labelMd.copyWith(
-            color: AppColors.onSurface,
-            fontWeight: FontWeight.bold,
-          ),
-        ),
-      ],
     );
   }
 }
