@@ -1,0 +1,26 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "civicvote-ceb61",
+          "appId": "1:372100447655:android:38ce674a3c080f8c13ca82",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "civicvote-ceb61",
+          "configurations": {
+            "android": "1:372100447655:android:38ce674a3c080f8c13ca82",
+            "web": "1:372100447655:web:6c5bc3ac17bcbc9213ca82",
+            "windows": "1:372100447655:web:9aaa0d206ce62e6813ca82"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules"
+  }
+}
